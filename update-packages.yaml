@@ -1,5 +1,5 @@
 ---
-- hosts: localserver
+- hosts: 192.168.1.13
   become: true
   tasks:
     - name: update apt packages
