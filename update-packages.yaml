@@ -6,3 +6,7 @@
       apt:
         upgrade: yes
         update_cache: yes
+    - name: Install SNMP packages
+      apt:
+        name: 
+          - snmp
